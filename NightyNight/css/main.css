@@ -1,0 +1,98 @@
+/* 전체 */
+* {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-family: "Gothic A1", sans-serif;
+}
+body {
+  width: 1280px;
+  background-image: url("../img/stars.jpeg");
+  background-size: 100%;
+}
+p {
+  line-height: 200%;
+}
+
+/* wrap */
+#wrap {
+  min-height: 100vh;
+  position: relative;
+  /* 기준이 되는 요소 */
+  /* '>'는 바로 아래 자식요소, 띄어쓰기는 하위요소 전부 */
+  width: 100%;
+}
+h1 {
+  font-family: "Stylish", sans-serif;
+  font-size: xx-large;
+  padding: 50px;
+  text-shadow: 3px 3px 3px rgb(184, 184, 184);
+}
+h3 {
+  color: rgb(118, 0, 118);
+  padding: 20px;
+  text-shadow: 3px 3px 3px rgb(191, 191, 191);
+}
+
+/* 헤더 */
+header {
+  padding: 30px;
+}
+header > div {
+  display: flex;
+}
+
+/* article */
+article {
+  text-align: center;
+  background-color: white;
+  border: 10px solid rgba(129, 65, 138, 0.5);
+  border-radius: 50px;
+  padding: 50px 0 50px 0;
+}
+.sec1,
+.sec2,
+.sec3,
+.sec4 {
+  padding-bottom: 50px;
+}
+.sec1 > h1 {
+  padding-bottom: 80px;
+}
+.sec1 > p {
+  padding: 30px;
+}
+.sec2 {
+  display: flex;
+  padding: 0px 30px 60px 30px;
+}
+#box1,
+#box2,
+#box3,
+#box4 {
+  border: 3px dotted black;
+  border-radius: 20%;
+  width: 350px;
+  margin: 10px;
+}
+.sec3 > p > span {
+  color: rgb(118, 0, 118);
+  font-weight: bold;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  height: 100px;
+  bottom: -130px;
+  position: absolute;
+  text-align: center;
+}
+footer > p {
+  display: inline-block;
+}
+span {
+  color: white;
+}

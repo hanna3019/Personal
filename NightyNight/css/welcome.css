@@ -1,0 +1,41 @@
+/* 로고 */
+@import url(https://fonts.googleapis.com/css?family=Cabin+Condensed);
+
+body,html{margin:0;padding:0;}
+body{
+  background-image: url(../img/night.jpeg);
+  font-family: 'Cabin Condensed', sans-serif;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+svg{font-weight:bold;max-width:500px;height:100%;}
+
+/* 로그인 */
+#id,#pw{
+  width: 200px;
+  padding: 5px 10px;
+  margin: 0 20px;
+}
+#signIn,#signUp{
+  padding: 15px 50px;
+  background-color: rgb(199, 80, 114);
+  border-radius: 30px;
+  color: white;
+  border: none;
+  font-size: medium;
+}
+#signIn:hover{
+  background-color: rgb(142, 56, 80);
+}
+#signUp:hover{
+  background-color: rgb(142, 56, 80);
+}
+#forgot{
+  text-decoration: none;
+  color: white;
+}
+#notmember{
+  color: white;
+}
